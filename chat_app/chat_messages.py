@@ -105,7 +105,7 @@ class ChatMessages(tk.Frame):
 
     @staticmethod
     def load_messages_list():
-        with open("../chat_app/resources/messages.json", "r") as file:
+        with open("D:\\chat_app\\resources\\messages.json", "r") as file:
             data = json.load(file)
 
         return data

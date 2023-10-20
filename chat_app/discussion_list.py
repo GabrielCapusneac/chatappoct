@@ -16,7 +16,7 @@ class DiscussionList(tk.Frame):
         self.create_widgets()
 
     def create_widgets(self):
-        initial_discussions = self.load_data("D:\Capusneac Gabriel\Chat_app\resources\discussions.json")
+        initial_discussions = self.load_data("D:\\chat_app\\resources\\discussions.json")
 
         self.button_discussions = tk.Button(
             self, text="New Chat", bg="blue", fg="white", command=self.open_contact_popup, font=("Arial", 12, "bold")
@@ -39,7 +39,7 @@ class DiscussionList(tk.Frame):
 
         contact_listbox = ttk.Treeview(contact_popup)
 
-        contacts = self.load_data("D:\Capusneac Gabriel\Chat_app\resources\contacts.json")
+        contacts = self.load_data("D:\\chat_app\\resources\\contacts.json")
         for contact in contacts:
             contact_listbox.insert('', 'end', text=contact["name"], values=(contact["id"]))
 

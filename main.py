@@ -1,6 +1,8 @@
 import tkinter as tk
+#import uuid
 
 from chat_app.chat_window import ChatWindow
+from client.contacts import add_new_contacts
 
 if __name__ == '__main__':
     root = tk.Tk()
@@ -9,6 +11,9 @@ if __name__ == '__main__':
     # Change font and color
     root.configure(bg="lightgray")
 
+    #print(uuid.uuid1())
+
+    add_new_contacts()
     chat_app = ChatWindow(root)
     chat_app.create_widgets()
 
