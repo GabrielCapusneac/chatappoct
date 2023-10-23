@@ -4,17 +4,25 @@ from tkinter import ttk
 
 
 class DiscussionList(tk.Frame):
-    def __init__(self, master=None):
+    def __init__(self, master=None, user_id=None):
         super().__init__(master)
         self.listbox_discussions = None
         self.button_discussions = None
         master.grid(row=0, column=0, sticky="ns")
 
+        self.user_id = user_id
         self.button_discussions = None
         self.listbox_discussions = None
         self.master = master
         self.create_widgets()
 
+    def get_discussions(user_id):
+        client = Client()
+        discussions = client.get(f"{DISCUSSIONS_ENDPOINT}/?user_id={user_id}")
+
+        if not discussions:
+            return []
+        return discussions
     def create_widgets(self):
         initial_discussions = self.load_data("D:\\chat_app\\resources\\discussions.json")
 

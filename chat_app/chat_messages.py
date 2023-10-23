@@ -1,7 +1,7 @@
 import json
 import tkinter as tk
 
-CONNECTED_NAME = "Andrei"
+CONNECTED_NAME = "Gabriel"
 
 
 class ChatMessages(tk.Frame):

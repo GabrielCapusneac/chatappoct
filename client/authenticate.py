@@ -1,15 +1,12 @@
 from chat_app.settings import USER_NAME, PASSWORD
 from client.client import Client
-from client.urls import CONTACTS_ENDPOINT, AUTHENTICATE_ENDPOINT
-
-def add_new_contacts():
-    contacts = Client().get(CONTACTS_ENDPOINT)
-    return contacts
+from client.urls import AUTHENTICATE_ENDPOINT
 
 def authenticate():
     client = Client()
     body = {
         "name": USER_NAME,
-        "password": PASSWORD
+        "password": PASSWORD,
     }
+
     return client.post(AUTHENTICATE_ENDPOINT, body)
