@@ -2,6 +2,8 @@ import json
 import tkinter as tk
 from tkinter import ttk
 
+from chat_app.settings import USER_NAME
+from client.add_contact import get_contacts, get_discussions, create_new_discussion
 
 class DiscussionList(tk.Frame):
     def __init__(self, master=None, user_id=None):
@@ -13,16 +15,9 @@ class DiscussionList(tk.Frame):
         self.user_id = user_id
         self.button_discussions = None
         self.listbox_discussions = None
-        self.master = master
+        #self.master = master
         self.create_widgets()
 
-    def get_discussions(user_id):
-        client = Client()
-        discussions = client.get(f"{DISCUSSIONS_ENDPOINT}/?user_id={user_id}")
-
-        if not discussions:
-            return []
-        return discussions
     def create_widgets(self):
         initial_discussions = self.load_data("D:\\chat_app\\resources\\discussions.json")
 

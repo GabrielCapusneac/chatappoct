@@ -15,7 +15,7 @@ if __name__ == '__main__':
     response_obj = authenticate()
     user_id = str(response_obj.get("id"))
 
-    chat_app = ChatWindow(root)
+    chat_app = ChatWindow(root, user_id)
     chat_app.create_widgets()
 
     # Set the column and row extensions to make the window resizable."

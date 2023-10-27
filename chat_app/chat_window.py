@@ -1,10 +1,10 @@
 import tkinter as tk
-from .discussion_list import DiscussionList
-from .chat_messages import ChatMessages
+from chat_app.discussion_list import DiscussionList
+from chat_app.chat_messages import ChatMessages
 
 
 class ChatWindow:
-    def __init__(self, root=None, user_id=None):
+    def __init__(self, root, user_id):
 
         self.root = root
         self.discussion_list = None
