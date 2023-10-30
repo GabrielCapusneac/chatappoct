@@ -1,32 +1,54 @@
 [
-  {
-    "name": "Alice",
-    "id": "0a89c133-fc22-41b7-8231-54c7f26ba591",
-    "contacts": [
-      {
+    {
         "name": "Alice",
-        "id": "4e9d7609-4ccc-4d83-90f8-7b24d90e670d"
-      }
-    ]
-  },
-  {
-    "name": "Bob",
-    "id": "4e9d7609-4a50-4d83-90f8-7b24d90e670d",
-    "contacts": [
-      {
+        "id": "81e2a9f5-7a66-4f58-88f0-b4650fa91698"
+    },
+    {
         "name": "Bob",
-        "id": "4e9sd7609-s4ccc-4d83-90f8-7b24d90e670d"
-      }
-    ]
-  },
-  {
-    "name": "Charlie",
-    "id": "6b3bcd3f-5213-467c-98e7-7b95d3c78482",
-    "contacts": [
-      {
-         "name": "Charlie",
-        "id": "4e9ssds760a9-s4ccc-4d83-90f8-7b24d90e670d"
-      }
-    ]
-  }
+        "id": "8387711c-39a8-405a-bbbf-0f24ff65f8e9"
+    },
+    {
+        "name": "Charlie",
+        "id": "f354e5f7-56b0-4526-8274-c0db338ee4c7"
+    },
+    {
+        "name": "Andrei",
+        "id": "9bhn3f-5213-467c-98e7-7b95d3c78482"
+    },
+    {
+        "name": "Eva",
+        "id": "0a89c133-ds22-41b7-8231-54c7f26ba591"
+    },
+    {
+        "name": "Ioan",
+        "id": "6bhn3f-5213-467c-98e7-7b95d3c78482"
+    },
+    {
+        "name": "Maria",
+        "id": "5e9d7609-4ccc-4d83-90f8-7b24d90e670d"
+    },
+    {
+        "name": "Ana",
+        "id": "2a89c133-ds22-41b7-8231-54c7f26ba591"
+    },
+    {
+        "name": "Ilinca",
+        "id": "1a89c133-ds22-41b7-8231-54c7f26ba592"
+    },
+    {
+        "name": "Georgiana",
+        "id": "1a89c133-ds22-41b7-8231-54c7f26ba591"
+    },
+    {
+        "name": "Diana",
+        "id": "0a89c133-ds22-41b7-8231-54c7f26ba591"
+    },
+    {
+        "name": "Mihai",
+        "id": "1a89c133-5b27-4d7b-8231-54c7f26ba591"
+    },
+    {
+        "name": "Alexandra",
+        "id": "9bhn3f-5213-467c-98e7-7b95d3c78482"
+    }
 ]

@@ -1,15 +1,7 @@
 [
     {
-        "name": "Eva",
-        "id": "0a89c133-ds22-41b7-8231-54c7f26ba591"
-    },
-    {
         "name": "Grace",
         "id": "4e9d7609-4ccc-4d83-90f8-7b24d90e670d"
-    },
-    {
-        "name": "Ioan",
-        "id": "6bhn3f-5213-467c-98e7-7b95d3c78482"
     },
     {
         "name": "Mihai",
@@ -22,14 +14,6 @@
     {
         "name": "Andrei",
         "id": "9bhn3f-5213-467c-98e7-7b95d3c78482"
-    },
-    {
-        "name": "Ana",
-        "id": "2a89c133-ds22-41b7-8231-54c7f26ba591"
-    },
-    {
-        "name": "Maria",
-        "id": "5e9d7609-4ccc-4d83-90f8-7b24d90e670d"
     },
     {
         "name": "Vlad",
